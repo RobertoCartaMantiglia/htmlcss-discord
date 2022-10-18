@@ -35,13 +35,22 @@ body{
 .big-col{
     width: 65%;
     background-color: #1e8ffe;
-
 }
-
+.img{
+    background-position: center;
+    background-size: cover;   
+}
+.frog-img{
+    background-image: url("../img/item1.svg");
+}
+.wizard-img{
+    background-image: url("../img/item2.svg");
+}
 .small-col{
     width: 35%;
     background-color: #febfca;
 }
+
 
 .bg-grey{
     background-color: #d2d2d2;
@@ -68,7 +77,9 @@ main section.king {
     /* background-color: aqua; */
 }
 
-
+h2{
+    font-size: 700;
+}
 nav.header-top{
     margin: 1rem;
     /* line-height: 40px; */
