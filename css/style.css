@@ -34,8 +34,11 @@ body{
 
 .big-col{
     width: 65%;
-    background-color: #1e8ffe;
 }
+.small-col{
+    width: 35%;
+}
+
 .img{
     background-position: center;
     background-size: cover;   
@@ -46,17 +49,12 @@ body{
 .wizard-img{
     background-image: url("../img/item2.svg");
 }
-.small-col{
-    width: 35%;
-    background-color: #febfca;
+.alien-img{
+    background-image: url("../img/item3.svg");
 }
-
-
-.bg-grey{
-    background-color: #d2d2d2;
+.king-img{
+    background-image: url("../img/item4-big.svg");
 }
-
-
 header{
     background-color: #3161e0;
     align-items: center;
@@ -65,7 +63,6 @@ header{
 
 main section {
     height: 600px;
-    /* background-color: aqua; */
 }
 
 footer{
@@ -74,7 +71,6 @@ footer{
 
 main section.king {
     height: 900px;
-    /* background-color: aqua; */
 }
 
 h2{
@@ -111,7 +107,6 @@ nav ul.main-menu li{
 
 
 div.big-content{
-    background-color: #228a22;
     height: 800px;
     width: 100%;
 }
