@@ -4,7 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Cabin', sans-serif;
+}
+.jumbo-content p,
+.jumbo-content button{
+    margin-top: 2rem;
+}
 .flex{
     display: flex;
 }
@@ -145,7 +151,8 @@ footer .footer-button{
 
 div#jumbotron{
     background-image: url("../img/jumbo.png");
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -153,7 +160,9 @@ div#jumbotron{
 div#jumbotron .jumbo-content{
     width: 28rem;
     height: 16rem;
-    background-color: #ed81ed;
+    text-align: center;
+    color: white;
+    padding: 1rem;
 }
 
 
